@@ -18,17 +18,20 @@
             <div class="dropdown">
                 <div class="from">
                     <p>From</p>
-                    <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
-                    <select name="from">
-                        <option value="USD" selected>USD</option>
-                        <option value="BDT">BDT</option>
-                        <option value="EUR">EUR</option>
-                        <option value="AUD">AUD</option>
-                    </select>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
+                        <select name="from">
+                            <option value="USD" selected >USD</option>
+                            <option value="BDT" >BDT</option>
+                            <option value="EUR">EUR</option>
+                            <option value="AUD">AUD</option>
+                        </select>
+                       </div>
                 </div>
                 <i class="fa-solid fa-arrow-right-arrow-left"></i>
                 <div class="to">
                     <p>To</p>
+                   <div class="select-container">
                     <img src="https://flagsapi.com/BD/flat/64.png" alt="flag">
                     <select name="from">
                         <option value="USD" >USD</option>
@@ -36,9 +39,10 @@
                         <option value="EUR">EUR</option>
                         <option value="AUD">AUD</option>
                     </select>
+                   </div>
                 </div>
             </div>
-            <p>1USD = 121.32BDT</p>
+            <p class="msg">1USD = 121.32BDT</p>
             <button>Get Exchange Rate</button>
         </form>
     </div>
